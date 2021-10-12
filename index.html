@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="https://img.icons8.com/wired/64/ffffff/todo-list.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>TO-do</title>
+</head>
+<body>
+    <div class="container container-custom">
+        <div class="row" id="top-row">
+            
+            <div class="col">
+                <h1>TO-do</h1>
+            </div>
+
+            <div class="col navi">
+                <button class="btn custom-button mb-2" id="folderButton">Folders</button>
+                <button class="btn custom-button mb-2" id="saveButton">Save</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container container-custom2 mb-2" id="list">
+
+        <div class="row pt-3" id="bottom-row">
+            
+            <div class="col-8" id="input-col">
+                <input type="text" name="Text-input" id="input" placeholder="Enter text">
+            </div>
+
+            <div class="col-2 input-button-col">
+                <button id="input-btn1"><img src="images/calendar.png" class="input-button-img"></button>
+            </div>
+            
+            <div class="col-2 input-button-col">
+                <button id="input-btn2"><img src="images/delete.png" class="input-button-img"></button>
+            </div>
+
+        </div>
+    
+        <div class="row pt-3 justify-row">
+        </div>
+
+        <div class="collection pt-3" id="list-append-area">
+
+            <!-- List render area -->
+
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
